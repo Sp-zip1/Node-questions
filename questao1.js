@@ -1,9 +1,9 @@
-let readline = require("readline-sync")
+let readline = require("readline-sync");
 
-let n = readline.question("Digite um valor: ")
+let n = readline.question("Digite um valor: ");
 
 
-n = parseInt(n)
+n = parseInt(n);
 
 if(n == 0){
     console.log("O valor é igual a %d; parabens!", n);
